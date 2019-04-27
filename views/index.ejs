@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Texas hold 'em Analyzer</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/main.js"></script>
+        <link rel="shortcut icon" href="/assets/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Texas hold 'em Analyzer</h1>
+        </header>
+
+        <section class="game-container container">
+            <div class="table-conainer">
+                <div style="position: relative">
+                    <div class="table_round round-title">
+                    </div>
+                    <div class="deck-container" id="deck_container">
+                    </div>
+                </div>
+
+                <div style="position: relative">
+                    <div class="pocket_round round-title">
+                    </div>
+                    <div class="pocket-container" id="pocket_container">
+                    </div>
+                </div>
+
+                <div style="position: relative">
+                    <div class="win_round round-title">
+                    </div>
+                    <div class="win-container" id="win_container">
+                    </div>
+                </div>
+            </div>
+
+            <button id="deal_pocket_btn" class="btn btn-primary">Deal</button>
+            <button id="deal_flop_btn" class="btn btn-primary" style="display: none">check</button>
+            <button id="deal_turn_btn" class="btn btn-primary" style="display: none">check</button>
+            <button id="deal_river_btn" class="btn btn-primary" style="display: none">check</button>
+            <button id="reset_btn" class="btn btn-primary" style="display: none">Reset Game</button>
+        </section>
+
+        <footer>
+            <ul>
+                <li>Developed by &#10084; lli</li>
+                <li>|</li>
+                <li><a href="mailto:liangli.0311@gmail.com?Subject=Hello%20again" target="_top">Contact Me</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
