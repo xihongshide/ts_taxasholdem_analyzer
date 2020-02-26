@@ -4,7 +4,7 @@ SUMMARY:
 
 DESCRIPTION:
 analyze 7 Taxas Hold 'em cards to 5 and return the best hand
-used a too "express-generator" to created an application skeleton.
+used "express-generator" to created an application skeleton.
 
 REQUIREMENTS:
 * Node NPM
