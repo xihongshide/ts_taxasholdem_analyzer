@@ -1,23 +1,21 @@
-SUMMARY:
-*projectName              Taxas Hold 'em Analyzer
-*Developed By             Liang Li
+#Taxas Hold 'em Analyzer
+A Taxas Hold 'em Analyzer written on Typescript.
 
-DESCRIPTION:
-analyze 7 Taxas Hold 'em cards to 5 and return the best hand
+Description: analyze 7 Taxas Hold 'em cards to 5 and return the best hand
 used "express-generator" to created an application skeleton.
 
-REQUIREMENTS:
-* Node NPM
+#Requirements:
+* Node & NPM
 
-INSTRUCTIONS:
-* Install node and Npm
-    $ npm install npm@latest -g
-
+#Instructions:
 * Install Dependencies
+```bash
     $ cd [the application folder]
     $ npm install
-
+```
 * Run App
+```bash
     $ npm start
+```
 
 * Load http://localhost:3000/ and Play!!!
